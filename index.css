@@ -108,6 +108,11 @@ h1,
 
 .close {
   color: #dc7f5f;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
 }
 
 /* Adding a fancy border to the certificate content */
