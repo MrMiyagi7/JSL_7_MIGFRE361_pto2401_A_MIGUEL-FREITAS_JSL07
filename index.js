@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //  Display the modal
     modal.style.display = "block";
-    body.style.backgroundImage = "url(./6ob.gif)";
+    body.style.backgroundImage = "url(./images/6ob.gif)";
 
     // Clear the form inputs
     studentNameInput.value = "";
