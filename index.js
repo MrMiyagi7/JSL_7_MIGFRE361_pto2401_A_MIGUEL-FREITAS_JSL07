@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('modal');
     const certificateContent = document.getElementById('certificateContent');
     const closeModal = document.querySelector('.close');
+    const body = document.querySelector("body");
   
     // Hide the modal initially
     modal.style.display = 'none';
@@ -34,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>with lengendary perseverance and world-class bad-assery <br> for never giving up \u{1F3C6}<p>
       <img src= "logo.png">
       <p>${personalMessage}</p>
-
     `;
     
       //  Display the modal
